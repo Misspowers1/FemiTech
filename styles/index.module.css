@@ -1,0 +1,40 @@
+.second {
+  display: flex;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background: #0000ff;
+  border-bottom: grey solid 2px;
+}
+.nav {
+  display: flex;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background: black;
+  list-style: none;
+  padding: 8px;
+  width: 100%;
+}
+.nav ul {
+  list-style: none;
+  margin: 12px;
+  font-size: large;
+}
+.nav ul:hover {
+  color: #ffff00;
+}
+.info {
+  text-align: center;
+  height: 500px;
+  background: url("/images/16.jpg") no-repeat center center;
+  color: white;
+}
+.info h1 {
+  margin-bottom: 100px;
+  color: white;
+}

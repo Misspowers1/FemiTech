@@ -1,0 +1,14 @@
+.footer {
+  margin: 200px 0 0 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-top: grey solid 1px;
+}
+.footer p {
+  margin: 10px;
+}
+.footer span:hover {
+  color: cyan;
+}
