@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import styles from "../styles/index.module.css";
+import TechItem from "../components/TechItem";
 import Link from "next/link";
 import { API_URL } from "../config/index";
 
@@ -70,10 +71,7 @@ export default function HomePage(props) {
       </div>
       <h1>Featured Posts</h1>
       {props.tech.map((tech) => {
-        return <h3>{tech.name}</h3>;
-      })}
-      {props.tech.map((tech) => {
-        return <h4>{tech.date}</h4>;
+        return <TechItem key={tech.id} techData={tech} />;
       })}
     </Layout>
   );

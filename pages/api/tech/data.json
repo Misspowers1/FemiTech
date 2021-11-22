@@ -7,7 +7,16 @@
            "date": "November 11, 2021",
            "author": "Conslate Koyo",
            "description": " Internationalized routing is not exactly a new feature on Next.js. In this article, we are not only checking what we get from this feature, but also how to leverage such functionalities to achieve the best user experience and a smooth developer experience as well.",
-           "image": "images/2.jpg"
-        }
+           "image": "/images/9.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Localizing Your Next.js App",
+            "slug": "featured-posts",
+            "date": "November 11, 2021",
+            "author": "Conslate Koyo",
+            "description": " Internationalized routing is not exactly a new feature on Next.js. In this article, we are not only checking what we get from this feature, but also how to leverage such functionalities to achieve the best user experience and a smooth developer experience as well.",
+            "image": "/images/9.jpg"
+         }
     ]
 }
