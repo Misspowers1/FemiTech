@@ -1,18 +1,19 @@
 import Layout from "../../components/Layout";
+import { API_URL } from "../../config/index";
 
-export default function BlogPage() {
+export default function BlogPage(props) {
+  const titleName = props.techEdna.name.split(" ");
   return (
-    <Layout title="Blog">
-      <h1>Tech Blog</h1>
-      <p>
-        Professionals in almost every industry have trouble keeping up to date
-        with changing tech trends. So, the best and the only way to stay
-        relevant with technology is through the information available online!
-        So, if you want intuitive articles along with insights from the tech
-        industry, you need to read blogs that are consistently updated by people
-        that know about the trends, market, and care about giving quality
-        content to their readers.
-      </p>
+    <Layout title={`${titleName[0]} ${titleName[1]}`}>
+      <h1> {props.techEdna.name} </h1>
     </Layout>
   );
+}
+export async function getServerSideProps({ query: { slug } }) {
+  const res = await fetch(`${API_URL}/api/tech/${slug}`);
+  const tech = await res.json();
+
+  return {
+    props: { techEdna: tech[0] },
+  };
 }

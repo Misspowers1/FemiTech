@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/TechItem.module.css";
+import Link from "next/link";
 
 export default function TechItem(props) {
   return (
@@ -16,6 +17,11 @@ export default function TechItem(props) {
         <h3>{props.techData.name}</h3>
         <h4>{props.techData.author}</h4>
         <p>{props.techData.description}</p>
+      </div>
+      <div className={styles.link}>
+        <Link href={`/tech/${props.techData.slug}`}>
+          <a>Details</a>
+        </Link>
       </div>
     </div>
   );

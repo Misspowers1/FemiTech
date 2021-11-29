@@ -69,10 +69,12 @@ export default function HomePage(props) {
           </ul>
         </nav>
       </div>
-      <h1>Featured Posts</h1>
-      {props.tech.map((tech) => {
-        return <TechItem key={tech.id} techData={tech} />;
-      })}
+      <div className={styles.main}>
+        <h1>Featured Posts</h1>
+        {props.tech.map((tech) => {
+          return <TechItem key={tech.id} techData={tech} />;
+        })}
+      </div>
     </Layout>
   );
 }
