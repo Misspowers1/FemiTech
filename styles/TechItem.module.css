@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
-  padding: 13px;
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
-  margin: 0 100px 0 100px;
+  padding: 20px;
+  margin: 32px 0;
+  border: #0096c7 solid 1px;
+  background-color: black;
+  border-radius: 30px;
 }
 .image {
   flex: 1;
@@ -16,8 +17,16 @@
 }
 .link {
   padding: 8px;
-  background-color: blue;
+  background-color: #0096c7;
   color: white;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+.main:hover {
+  box-shadow: 2px 3px 5px #0096c7;
+  transition: ease-in 0.2s;
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
 }

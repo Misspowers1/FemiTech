@@ -1,0 +1,31 @@
+.main {
+  position: relative;
+  padding: 40px;
+}
+.controls {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+.edit {
+  color: blue;
+  margin-left: 20px;
+}
+.delete {
+  color: red;
+  margin-left: 20px;
+}
+.main p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.back {
+  display: block;
+  color: cyan;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.main h1 {
+  display: flex;
+  align-items: flex-start;
+}

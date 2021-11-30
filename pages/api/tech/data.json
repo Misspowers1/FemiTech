@@ -3,20 +3,32 @@
         {
            "id": 1,
            "name": "Localizing Your Next.js App",
-           "slug": "featured-posts",
+           "slug": "localizing-next.js-app",
            "date": "November 11, 2021",
            "author": "Conslate Koyo",
            "description": " Internationalized routing is not exactly a new feature on Next.js. In this article, we are not only checking what we get from this feature, but also how to leverage such functionalities to achieve the best user experience and a smooth developer experience as well.",
+           "details": "We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.",
            "image": "/images/9.jpg"
         },
         {
-            "id": 1,
-            "name": "Localizing Your Next.js App",
-            "slug": "featured-posts",
-            "date": "November 11, 2021",
-            "author": "Conslate Koyo",
-            "description": " Internationalized routing is not exactly a new feature on Next.js. In this article, we are not only checking what we get from this feature, but also how to leverage such functionalities to achieve the best user experience and a smooth developer experience as well.",
-            "image": "/images/9.jpg"
+            "id": 2,
+            "name": "Referencing String Characters Using Array-Notation In ColdFusion 2021",
+            "slug": "referencing-strings",
+            "date": "November 12, 2021",
+            "author": "Edna Atieno",
+            "description": "A few years ago, I mentioned that you can treat strings like character arrays in Lucee CFML. It turns out, you can do the same thing in Adobe ColdFusion. I am not sure what version this was added in; but, I'm guessing it was ColdFusion 2018 ",
+            "details": "We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.",
+            "image": "/images/10.jpg"
+         },
+         {
+            "id": 3,
+            "name": "Working Code Podcast",
+            "slug": "working-code-podcast",
+            "date": "November 13, 2021",
+            "author": "Emmanuel Junior",
+            "description": "One of our fans on Patreon is about to embark on a large 'replatforming' endeavor. His team has decided to move away from their 'traditionally coded' application (think hard to maintain, big ball of mud); and, will soon rebuild the server-side aspect of their application using a new language. The team isn't yet sure what language they'll use (this is how the topic came up in Discord); but, they know that they want a statically typed language with a strong separation of concerns in the MVC (Model, View, Controller) layers.",
+            "details": "We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.We all know the advantages of serverless computing: pay only for what you use; scale up and down with ease; abstract away the complexities of managing servers. In this article, I illustrate how you can acquire these benefits for long computational tasks which are too large for Lambda or Google.",
+            "image": "/images/15.jpg"
          }
     ]
 }

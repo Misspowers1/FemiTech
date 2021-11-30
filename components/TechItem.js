@@ -13,14 +13,15 @@ export default function TechItem(props) {
         />
       </div>
       <div className={styles.info}>
-        <span>{props.techData.date}</span>
+        <span>
+          By {props.techData.author} on {props.techData.date}
+        </span>
         <h3>{props.techData.name}</h3>
-        <h4>{props.techData.author}</h4>
         <p>{props.techData.description}</p>
       </div>
       <div className={styles.link}>
         <Link href={`/tech/${props.techData.slug}`}>
-          <a>Details</a>
+          <a>Read More</a>
         </Link>
       </div>
     </div>
