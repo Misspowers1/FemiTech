@@ -26,7 +26,7 @@ export default function Header() {
 				</ul>
 				<ul>
 					<li>
-						<Link href="/Tech">
+						<Link href="/tech">
 							<a>Events</a>
 						</Link>
 					</li>
